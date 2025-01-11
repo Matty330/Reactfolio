@@ -26,3 +26,27 @@ section {
         height: 150px;
         }
         
+        section {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f9; /* Light background */
+            color: #333; /* Dark text */
+        }
+        
+        h2 {
+            font-size: 2rem;
+            color: #007bff; /* Blue for section heading */
+        }
+        
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        
+        img {
+            border: 3px solid #007bff; /* Blue border */
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+        
