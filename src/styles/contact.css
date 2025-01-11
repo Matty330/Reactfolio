@@ -1,8 +1,18 @@
+/* General Section Styling */
 section {
-    text-align: center;
+    min-height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
     padding: 20px;
+    background-color: #f4f4f9; /* Light background */
+    color: #333; /* Dark text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
 }
 
+
+/* Form Styling */
 form {
     display: flex;
     flex-direction: column;
@@ -13,7 +23,7 @@ form {
 label {
     display: flex;
     flex-direction: column;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     margin-bottom: 10px;
 }
 
@@ -21,32 +31,12 @@ input,
 textarea {
     width: 300px;
     padding: 10px;
-    font-size: 1em;
+    font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-section {
-    text-align: center;
-    padding: 20px;
-    background-color: #f4f4f9; /* Light background */
-    color: #333; /* Dark text */
-}
-
+/* Email and Links Styling */
 a {
     color: #007bff; /* Blue for email links */
     text-decoration: none;
@@ -57,6 +47,7 @@ a:hover {
     color: #0056b3; /* Darker blue on hover */
 }
 
+/* Headings and Paragraphs */
 h2 {
     font-size: 2rem;
     color: #007bff; /* Blue for section heading */
@@ -67,15 +58,33 @@ p {
     line-height: 1.5;
 }
 
+/* Button Styling */
 button {
     background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
+    font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
     background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    input,
+    textarea {
+        width: 90%; /* Adjust input width for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller heading size on mobile */
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
