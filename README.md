@@ -11,8 +11,8 @@
   - [Features](#features)
   - [Technologies Used](#technologies-used)
   - [How to Use](#how-to-use)
-    - [\*\* Add Placeholder Information\*\*](#-add-placeholder-information)
-    - [Push the README\*\*](#push-the-readme)
+  - [Deployed Link](#deployed-link)
+  - [Contact](#contact)
 
 ---
 
@@ -44,28 +44,29 @@ Reactfolio is designed to showcase my work as a developer and provide an easy wa
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/reactfolio.git
-   cd reactfolio
-
-
-   
----
-
-### ** Add Placeholder Information**
-- Replace placeholders like `yourusername` and `yourname` with your actual GitHub username and LinkedIn profile (or placeholders for now).
-- The **Deployed Link** will remain "Coming Soon" until the project is deployed.
-
----
-
-###  Push the README**
-1. Save the file.
-2. Push it to your repository:
+   git clone git@github.com:Matty330/Reactfolio.git
+   cd Reactfolio
+   ```
+2. Install dependencies:
    ```bash
-   git add README.md
-   git commit -m "Added initial README structure"
-   git push
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
+---
 
+## Deployed Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live version of Reactfolio:
+- [Reactfolio Live Demo](https://dynamic-flan-234f00.netlify.app)
+
+---
+
+## Contact
+
+- **GitHub Repo**: [Reactfolio GitHub](https://github.com/Matty330/Reactfolio.git)
+- **Netlify Deployment**: [Reactfolio Live Demo](https://dynamic-flan-234f00.netlify.app)
+- **Email**: MSIMMW331@outlook.com
