@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/resume.css'; // Connect the styles file for Resume
 
 function Resume() {
     return (
