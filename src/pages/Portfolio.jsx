@@ -1,69 +1,103 @@
 import React from 'react';
+import Project1Image from '../assets/images/Project 1.jpg';
+import Project2Image from '../assets/images/Project 2.jpg';
+import Project3Image from '../assets/images/Project 3.jpg';
 import '../styles/portfolio.css';
 
 function Portfolio() {
     const projects = [
-    {
-        title: 'Reactfolio',
-      image: 'path-to-reactfolio-image.jpg', // Replace with actual image path
-        deployedLink: 'https://example.com/reactfolio',
-        repoLink: 'https://github.com/yourusername/reactfolio',
-    },
-    {
-        title: 'Project 2',
-        image: 'path-to-project2-image.jpg',
-        deployedLink: 'https://example.com/project2',
-        repoLink: 'https://github.com/yourusername/project2',
-    },
-    {
-        title: 'Project 3',
-        image: 'path-to-project3-image.jpg',
-        deployedLink: 'https://example.com/project3',
-        repoLink: 'https://github.com/yourusername/project3',
-    },
-    {
-        title: 'Project 4',
-        image: 'path-to-project4-image.jpg',
-        deployedLink: 'https://example.com/project4',
-        repoLink: 'https://github.com/yourusername/project4',
-    },
-    {
-        title: 'Project 5',
-        image: 'path-to-project5-image.jpg',
-        deployedLink: 'https://example.com/project5',
-        repoLink: 'https://github.com/yourusername/project5',
-    },
-    {
-        title: 'Project 6',
-        image: 'path-to-project6-image.jpg',
-        deployedLink: 'https://example.com/project6',
-        repoLink: 'https://github.com/yourusername/project6',
-    },
+        {
+            title: 'Readme-generator',
+            image: Project1Image,
+            deployedLink: 'https://example.com/reactfolio',
+            repoLink: 'https://github.com/Matty330/readme-generator.git',
+        },
+        {
+            title: 'Fortune Cookie',
+            image: Project2Image,
+            deployedLink: 'https://matty330.github.io/pixel-C-project1/',
+            repoLink: 'https://github.com/Matty330/pixel-C-project1.git',
+        },
+        {
+            title: 'Javascript Clock',
+            image: Project3Image,
+            deployedLink: 'https://matty330.github.io/JavaScript-clock/',
+            repoLink: 'git@github.com:Matty330/JavaScript-clock.git',
+        },
     ];
 
     return (
-    <section>
-        <h2>Portfolio</h2>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
-        {projects.map((project, index) => (
-            <div key={index} style={{ width: '30%' }}>
-            <img
-                src={project.image}
-                alt={project.title}
-                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
-            />
-            <h3>{project.title}</h3>
-            <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
-                View App
-            </a>
-            <br />
-            <a href={project.repoLink} target="_blank" rel="noopener noreferrer">
-                GitHub Repo
-            </a>
+        <section>
+            <h2>Portfolio</h2>
+            <div
+                style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    gap: '20px',
+                    justifyContent: 'center',
+                }}
+            >
+                {projects.map((project, index) => (
+                    <div
+                        key={index}
+                        style={{
+                            width: '300px',
+                            border: '1px solid #ccc',
+                            borderRadius: '10px',
+                            padding: '15px',
+                            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                            textAlign: 'center',
+                        }}
+                    >
+                        <img
+                            src={project.image}
+                            alt={project.title}
+                            style={{
+                                width: '100%',
+                                height: '200px',
+                                objectFit: 'cover',
+                                borderRadius: '8px',
+                                marginBottom: '10px',
+                            }}
+                        />
+                        <h3>{project.title}</h3>
+                        <a
+                            href={project.deployedLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                display: 'inline-block',
+                                margin: '5px 0',
+                                padding: '10px 15px',
+                                backgroundColor: '#007bff',
+                                color: 'white',
+                                textDecoration: 'none',
+                                borderRadius: '5px',
+                            }}
+                        >
+                            View App
+                        </a>
+                        <br />
+                        <a
+                            href={project.repoLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                display: 'inline-block',
+                                margin: '5px 0',
+                                padding: '10px 15px',
+                                backgroundColor: '#28a745',
+                                color: 'white',
+                                textDecoration: 'none',
+                                borderRadius: '5px',
+                            }}
+                        >
+                            GitHub Repo
+                        </a>
+                    </div>
+                ))}
             </div>
-        ))}
-        </div>
-    </section>
+        </section>
     );
 }
 
