@@ -1,7 +1,7 @@
 import React from 'react';
 import Project1Image from '../assets/images/Project 1.jpg';
 import Project2Image from '../assets/images/Project 2.jpg';
-import Project3Image from '../assets/images/Project3.jpg';
+import Project3Image from '../assets/images/Project 3.jpg';
 import Project4Image from '../assets/images/Project 4.jpg';
 import Project5Image from '../assets/images/Project 5.jpg';
 import Project6Image from '../assets/images/Project 6.jpg';
@@ -31,22 +31,20 @@ function Portfolio() {
             title: 'Rotating Image Gallery',
             image: Project4Image,
             deployedLink: 'https://matty330.github.io/Rotating-image-gallery/',
-            repoLink: 'git@github.com:Matty330/Rotating-image-gallery.git',
+            repoLink: 'https://github.com/Matty330/Rotating-image-gallery.git',
         },
         {
             title: 'Button Ripple',
             image: Project5Image,
             deployedLink: 'https://matty330.github.io/Button-ripple/',
-            repoLink: 'git@github.com:Matty330/Button-ripple.git',
+            repoLink: 'https://github.com/Matty330/Button-ripple.git',
         },
         {
             title: 'Weather APP',
             image: Project6Image,
             deployedLink: 'https://matty330.github.io/weatherappv2/',
-            repoLink: 'git@github.com:Matty330/weatherappv2.git',
+            repoLink: 'https://github.com/Matty330/weatherappv2.git',
         },
-        
-        
     ];
 
     return (
@@ -111,7 +109,7 @@ function Portfolio() {
                                 margin: '5px 0',
                                 padding: '10px 15px',
                                 backgroundColor: '#28a745',
-                                color: 'blue',
+                                color: 'white',
                                 textDecoration: 'none',
                                 borderRadius: '5px',
                             }}
