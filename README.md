@@ -68,5 +68,5 @@ Check out the live version of Reactfolio:
 ## Contact
 
 - **GitHub Repo**: [Reactfolio GitHub](https://github.com/Matty330/Reactfolio.git)
-- **Netlify Deployment**: [Reactfolio Live Demo](https://dynamic-flan-234f00.netlify.app)
+- **Netlify Deployment**: [Reactfolio Live Demo](https://reactmw.netlify.app/)
 - **Email**: MSIMMW331@outlook.com
