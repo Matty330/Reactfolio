@@ -60,8 +60,7 @@ Reactfolio is designed to showcase my work as a developer and provide an easy wa
 
 ## Deployed Link
 
-Check out the live version of Reactfolio:
-- [Reactfolio Live Demo](https://dynamic-flan-234f00.netlify.app)
+
 
 ---
 
