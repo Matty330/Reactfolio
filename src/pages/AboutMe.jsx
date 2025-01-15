@@ -5,7 +5,8 @@ import WashingtonImage from '../assets/images/Washington.jpg'; // Use ES import
 function AboutMe() {
     return (
     <section>
-        <h2>About Me</h2>
+        <h2 className="about-me-title">About Me</h2>
+        <div className="about-me">
         <img
         src={WashingtonImage} // Correct ES module import
         alt="Matthew Welcome"
@@ -21,6 +22,7 @@ Right now, I’m soaking up everything I can about JavaScript, React, PostgreSQL
 
 Take a look at my portfolio, and you’ll see the energy, curiosity, and dedication I bring to every project. Let’s connect—I’d love to share what I’m working on and hear about what excites you, too!
             </p>
+            </div>
         </section>
     );
 }

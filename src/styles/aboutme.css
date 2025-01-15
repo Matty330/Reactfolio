@@ -3,12 +3,47 @@ section {
     min-height: 100vh; /* Full viewport height */
     width: 100%; /* Full viewport width */
     padding: 20px;
-    background-color: red; /* Light background */
-    color: #333; /* Dark text */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
+    background-color: white /* Light background */
+    color: #333; /* Dark text */
+    
+}
+
+/* About Me Section Styling */
+.about-me {
+    max-width: 600px; /* Limit the width of the content */
+    text-align: center; /* Center-align the text */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px; /* Add padding around the content */
+    background-color:  aqua;
+    border-radius: 10px; /* Rounded corners for better styling */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    
+}
+
+/* Styling for the paragraph inside the About Me section */
+.about-me p {
+    font-size: 1.1rem;
+    line-height: 1.6; /* Improved readability */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333; /* Ensure paragraph text color contrasts well */
+    
+    
+}
+
+/* Image Styling */
+.about-me img {
+    display: block;
+    margin: 0 auto 20px; /* Center the image and add spacing below */
+    border-radius: 50%; /* Circular image */
+    border: 3px solid #007bff; /* Blue border for emphasis */
+    width: 150px; /* Consistent image size */
+    height: 150px; /* Ensure a square aspect ratio */
+
 }
 
 /* Form Styling */
@@ -49,8 +84,19 @@ a:hover {
 /* Headings and Paragraphs */
 h2 {
     font-size: 2rem;
-    color: #007bff; /* Blue for section heading */
+    color: red;
 }
+/* About Me Title Styling */
+.about-me-title {
+    font-size: 2.5rem;
+    color: 00f5d4; /* Blue color for the title */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add spacing below the title */
+    text-transform: uppercase; /* Optional: Make the text uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
+}
+
+
 
 p {
     font-size: 1.1rem;
